@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(255, 245, 232);
+}
+
+.main {
+  margin: 20% auto;
+  background-color: white;
+  height: 80%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+header,
+section {
+  width: 90%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-image {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.prep-section {
+  background-color: rgb(255, 228, 237);
+  border-radius: 10px;
+}
+
+.ingredients-section {
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.instructions-section {
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.instructions-section ul {
+  list-style-type: decimal;
+}
+
+.nutrition {
+  display: flex;
+  flex-direction: column;
+}
+
+.nutrition-div {
+  display: flex;
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.nutrition-div:last-child {
+  border: none;
+}
+
+.nutrition-div p {
+  flex: 1;
+}
